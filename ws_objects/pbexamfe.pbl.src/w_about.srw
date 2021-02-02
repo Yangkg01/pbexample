@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$w_about.srw
-$PBExportComments$About box for examples 000
+$PBExportComments$About box for examples 123
 forward
 global type w_about from w_center
 end type
@@ -66,7 +66,7 @@ int li_year
 li_year = Year ( Today() )
 st_3.text = "© " + String (li_year, "####" ) + " Appeon Limited.  All rights reserved."
 
-//test
+
 
 end event
 

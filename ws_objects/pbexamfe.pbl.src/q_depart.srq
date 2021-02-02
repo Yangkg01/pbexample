@@ -1,3 +1,3 @@
 ﻿$PBExportHeader$q_depart.srq
-$PBExportComments$000
-PBSELECT( VERSION(400) TABLE(NAME="department" ) COLUMN(NAME="department.dept_id") COLUMN(NAME="department.dept_name") COLUMN(NAME="department.dept_head_id")) 
+$PBExportComments$123
+PBSELECT( VERSION(400) TABLE(NAME="department" ) COLUMN(NAME="department.dept_id") COLUMN(NAME="department.dept_name")) 

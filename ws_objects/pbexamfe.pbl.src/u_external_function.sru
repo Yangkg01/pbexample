@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$u_external_function.sru
-$PBExportComments$Cross platform user object ancestor 000
+$PBExportComments$Cross platform user object ancestor 123
 forward
 global type u_external_function from nonvisualobject
 end type
@@ -473,7 +473,7 @@ public function string uf_assemblepath (string as_drive, string as_dirpath, stri
 
 Return uf_AssemblePath(as_Drive, as_DirPath, as_FileName, "")
 
-//test
+
 
 end function
 
