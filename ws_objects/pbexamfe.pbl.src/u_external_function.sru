@@ -473,6 +473,8 @@ public function string uf_assemblepath (string as_drive, string as_dirpath, stri
 
 Return uf_AssemblePath(as_Drive, as_DirPath, as_FileName, "")
 
+//test
+
 end function
 
 public subroutine uf_set_directories ();String	ls_PBDir, ls_File, ls_ExampleDir

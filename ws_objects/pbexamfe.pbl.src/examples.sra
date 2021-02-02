@@ -234,6 +234,8 @@ f_set_profile("application", "usercontrol", ls_usercontrol)
 
 //Destroy the Cross Platform NVO if exists.
 if not IsNull(gu_ext_func) then destroy(gu_ext_func)
+
+//test
 end event
 
 on examples.create

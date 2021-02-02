@@ -115,7 +115,7 @@ end type
 
 on m_file.create
 call super::create
-this.text = "&File"
+this.text = "&File00"
 this.menutextcolor = 134217735
 this.menubackcolor = 134217732
 this.menuhighlightcolor = 134217741
