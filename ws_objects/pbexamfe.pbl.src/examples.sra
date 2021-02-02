@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$examples.sra
-$PBExportComments$PowerBuilder Code Examples Application 123
+$PBExportComments$PowerBuilder Code Examples Application 000
 forward
 global type examples from application
 end type

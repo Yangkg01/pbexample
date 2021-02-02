@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$m_main.srm
-$PBExportComments$Front-end menu 123
+$PBExportComments$Front-end menu 000
 forward
 global type m_main from menu
 end type
