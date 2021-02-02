@@ -1,0 +1,8 @@
+﻿$PBExportHeader$p_create_ole_blob.srp
+$PBExportComments$Pipeline object to create a new table with an OLE Blob column
+PIPELINE(source_connect=PB Postgres V2019R3,destination_connect=PB Postgres V2019R3,type=create,commit=100,errors=100,keyname="ole_x")
+SOURCE(name="ole",COLUMN(type=char,name="id",dbtype="char(20)",key=yes,nulls_allowed=no)
+ COLUMN(type=string,name="description",dbtype="text",nulls_allowed=no))
+RETRIEVE(statement="PBSELECT( VERSION(400) TABLE(NAME=~"ole~" ) COLUMN(NAME=~"ole.id~") COLUMN(NAME=~"ole.description~"))")
+DESTINATION(name="ole_copy",COLUMN(type=char,name="id",dbtype="char(20)",key=yes,nulls_allowed=no,initial_value="spaces")
+ COLUMN(type=string,name="description",dbtype="text",nulls_allowed=no,initial_value="spaces"))
