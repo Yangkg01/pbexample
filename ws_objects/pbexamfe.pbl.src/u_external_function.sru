@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$u_external_function.sru
-$PBExportComments$Cross platform user object ancestor
+$PBExportComments$Cross platform user object ancestor 123
 forward
 global type u_external_function from nonvisualobject
 end type
