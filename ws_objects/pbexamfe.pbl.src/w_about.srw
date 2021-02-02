@@ -66,6 +66,8 @@ int li_year
 li_year = Year ( Today() )
 st_3.text = "© " + String (li_year, "####" ) + " Appeon Limited.  All rights reserved."
 
+//test
+
 end event
 
 on w_about.create
