@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$w_about.srw
-$PBExportComments$About box for examples 233
+$PBExportComments$About box for examples 321
 forward
 global type w_about from w_center
 end type
