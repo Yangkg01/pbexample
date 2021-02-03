@@ -616,3 +616,6 @@ TriggerEvent( this, "destructor" )
 call super::destroy
 end on
 
+event constructor;//00
+end event
+

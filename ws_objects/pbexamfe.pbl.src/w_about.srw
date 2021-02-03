@@ -67,7 +67,7 @@ li_year = Year ( Today() )
 st_3.text = "© " + String (li_year, "####" ) + " Appeon Limited.  All rights reserved."
 
 
-
+//00
 end event
 
 on w_about.create
