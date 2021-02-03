@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$f_create_external_func_uo.srf
-$PBExportComments$New! function call made that will return a user object for making external calls for the correct platform 123
+$PBExportComments$New! function call made that will return a user object for making external calls for the correct platform 233
 global type f_create_external_func_uo from function_object
 end type
 
