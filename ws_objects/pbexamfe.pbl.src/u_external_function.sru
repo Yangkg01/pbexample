@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$u_external_function.sru
-$PBExportComments$Cross platform user object ancestor 321
+$PBExportComments$Cross platform user object ancesto
 forward
 global type u_external_function from nonvisualobject
 end type
@@ -615,7 +615,4 @@ on u_external_function.destroy
 TriggerEvent( this, "destructor" )
 call super::destroy
 end on
-
-event constructor;//00
-end event
 

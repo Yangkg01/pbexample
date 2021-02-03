@@ -1,5 +1,5 @@
 ﻿$PBExportHeader$examples.sra
-$PBExportComments$PowerBuilder Code Examples Application 321
+$PBExportComments$PowerBuilder Code Examples Application
 forward
 global type examples from application
 end type
@@ -235,7 +235,7 @@ f_set_profile("application", "usercontrol", ls_usercontrol)
 //Destroy the Cross Platform NVO if exists.
 if not IsNull(gu_ext_func) then destroy(gu_ext_func)
 
-//00
+
 end event
 
 on examples.create
